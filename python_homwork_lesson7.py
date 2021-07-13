@@ -1,0 +1,1 @@
+x = int(input('people?'))c = list()b = list()def a():    c.append(input('name?'))    b.append(int(input('score?')))                for i in range(1,x+1):    a()print('max:','name:', max(c),'score:',max(b))print('min:','name:', min(c),'score:',min(b))print('average:',sum(b)/x)
